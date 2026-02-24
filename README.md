@@ -13,11 +13,10 @@ kaggle/
 │   ├── train.csv               # Training labels (image_id, angle, speed)
 │   ├── training_images/        # 14,383 training images (.png)
 │   └── test_data/              # 2,000 test images (.png)
-├── source/
-│   ├── dataset.py              # Dataset pipeline (build_dataset, split_indices, preprocess_image)
-│   └── train_utils.py          # Training utilities (plot_metric)
 ├── notebooks/
-│   └── mlis2026-cnn-angle-speed.ipynb   # Main training notebook
+│   └── images/                          # Training plots of MSE over epochs
+│   └── mlis2026-cnn-angle-speed.ipynb   # Main experiments notebook
+│   └──train.ipynb                       # Training notebook (Google Colab)
 └── outputs/
     ├── models/                 # Saved model checkpoints (.keras)
     └── predictions/            # Submission CSV files
